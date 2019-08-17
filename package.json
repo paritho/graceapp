@@ -1,0 +1,26 @@
+{
+  "name": "graceapp",
+  "version": "1.0.0",
+  "description": "An app to monitor and view connections at grace church",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paritho/graceapp.git"
+  },
+  "author": "Paul Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paritho/graceapp/issues"
+  },
+  "homepage": "https://github.com/paritho/graceapp#readme",
+  "devDependencies": {
+    "chartist": "^0.11.3",
+    "http-server": "^0.11.1",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  }
+}
